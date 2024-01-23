@@ -1,15 +1,21 @@
-import { Car } from "../../components/Car/Car"
+
+import { Header } from "../../components/Header/Header"
+import { ContentWrapper } from "../../components/ContentWrapper/ContentWrapper"
 import { Counter } from "../../components/Counter/Counter"
-import { Favcolor } from "../../components/Favcolor/Favcolor"
 import { Message } from "../../components/Message/Message"
+import { Footer } from "../../components/Footer/Footer"
 
 export const Home = () => {
     return (
         <>
-            <Favcolor />
-            <Car />
-            <Counter />
-            <Message />
+            <Header />
+
+            <ContentWrapper title="Homepage">
+                <Counter />
+                <Message />
+            </ContentWrapper>
+            
+            <Footer />
         </>
     )
 }
