@@ -11,6 +11,7 @@ export const NavBar = () => {
                 <li><NavLink to="todolist">ToDo List</NavLink></li>
                 <li><NavLink to="effects">Effects</NavLink></li>
                 <li><NavLink to="stopwatch">Stopwatch</NavLink></li>
+                <li><NavLink to="joke">Joke</NavLink></li>
             </ul>
         </nav>
     )
