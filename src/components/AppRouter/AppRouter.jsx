@@ -3,6 +3,8 @@ import { Home } from "../../pages/Home/Home"
 import { Counter } from "../Counter/Counter"
 import { Message } from "../Message/Message"
 import { ToDoList } from "../ToDoList/ToDoList"
+import { Effects } from "../Effects/Effects"
+import { StopWatch } from "../StopWatch/StopWatch"
 
 
 export const AppRouter = () => {
@@ -12,6 +14,8 @@ export const AppRouter = () => {
         <Route path="/counter" element={<Counter />} />
         <Route path="/message" element={<Message />} />
         <Route path="/todolist" element={<ToDoList />} />
+        <Route path="/effects" element={<Effects />} />
+        <Route path="/stopwatch" element={<StopWatch />} />
     </Routes>
   )
 }

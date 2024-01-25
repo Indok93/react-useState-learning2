@@ -9,6 +9,8 @@ export const NavBar = () => {
                 <li><NavLink to="counter">Counter</NavLink></li>
                 <li><NavLink to="message">Message</NavLink></li>
                 <li><NavLink to="todolist">ToDo List</NavLink></li>
+                <li><NavLink to="effects">Effects</NavLink></li>
+                <li><NavLink to="stopwatch">Stopwatch</NavLink></li>
             </ul>
         </nav>
     )
