@@ -6,9 +6,9 @@ export const NavBar = () => {
         <nav className={styles.navbar}>
             <ul>
                 <li><NavLink to="/">Home</NavLink></li>
-                <li><NavLink to="">Counter</NavLink></li>
-                <li><NavLink to="">Message</NavLink></li>
-                <li><NavLink to="">To Do List</NavLink></li>
+                <li><NavLink to="counter">Counter</NavLink></li>
+                <li><NavLink to="message">Message</NavLink></li>
+                <li><NavLink to="todolist">ToDo List</NavLink></li>
             </ul>
         </nav>
     )
